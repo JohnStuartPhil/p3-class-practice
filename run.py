@@ -11,15 +11,15 @@ class Countries:
     
     def question_if_a_is_the_correct_answer(self):
         """the question when option A is the correct answer"""
-        return f"What is the capital of {self.country}?\nIs it; {self.a}: {self.capital}, {self.b}: {self.incorrect_1} or {self.c}: {self.incorrect_2}"
+        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.capital}, {self.b}: {self.incorrect_1} or {self.c}: {self.incorrect_2}"
     
     def question_if_b_is_the_correct_answer(self):
         """the question when option B is the correct answer"""
-        return f"What is the capital of {self.country}?\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.capital} or {self.c}: {self.incorrect_2}"
+        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.capital} or {self.c}: {self.incorrect_2}"
     
     def question_if_c_is_the_correct_answer(self):
         """the question when option C is the correct answer"""
-        return f"What is the capital of {self.country}?\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
+        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
 question_1 = Countries("the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
 question_2 = Countries("China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
@@ -40,7 +40,7 @@ def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    answer = input("Please select an option of A, B or C: ")
+    answer = input("Please select an option: A, B or C: ")
     print()
     print(f"You selected {answer}")
     print()
