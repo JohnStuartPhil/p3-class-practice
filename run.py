@@ -33,9 +33,27 @@ question_8 = Countries(8, "Italy", "Rome", "Milan", "Naples", "A", "B", "C")
 question_9 = Countries(9, "Canada", "Ottawa", "Montreal", "Toronto", "A", "B", "C")
 question_10 = Countries(10, "Brazil", "Brasilia", "Rio de Janerio", "Sao Paulo", "A", "B", "C")
 
-print()
-print(question_1.question_if_c_is_the_correct_answer())
-print()
+def determine_if_a_is_the_corrrect_answer():
+    """
+    determines the output once the user has input A/a, B/b, C/c or something else
+    """
+    answer = input("Please select an option of A, B or C: ")
+    print()
+    print(f"You selected {answer}")
+    print()
+
+    if answer.upper() == "A":
+        print(f"Well done, {answer} is the correct answer")
+        print()
+    elif answer.upper() == "B":
+        print(f"{answer} is not the correct answer")
+        print()
+    elif answer.upper() == "C":
+        print(f"{answer} is not the correct answer")    
+        print()
+    else:
+        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
+        print()
 
 def determine_if_c_is_the_corrrect_answer():
     """
@@ -58,53 +76,7 @@ def determine_if_c_is_the_corrrect_answer():
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
-determine_if_c_is_the_corrrect_answer()
 
-print()
-print(question_2.question_if_a_is_the_correct_answer())
-print()
-
-def determine_if_a_is_the_corrrect_answer():
-    """
-    determines the output once the user has input A/a, B/b, C/c or something else
-    """
-    answer = input("Please select an option of A, B or C: ")
-    print()
-    print(f"You selected {answer}")
-    print()
-
-    if answer.upper() == "A":
-        print(f"Well done, {answer} is the correct answer")
-        print()
-    elif answer.upper() == "B":
-        print(f"{answer} is not the correct answer")
-        print()
-    elif answer.upper() == "C":
-        print(f"{answer} is not the correct answer")    
-        print()
-    else:
-        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
-        print()
-determine_if_a_is_the_corrrect_answer()
-
-print()
-print(question_3.question_if_a_is_the_correct_answer())
-print()
-determine_if_a_is_the_corrrect_answer()
-
-print()
-print(question_4.question_if_c_is_the_correct_answer())
-print()
-determine_if_c_is_the_corrrect_answer()
-
-print()
-print(question_5.question_if_c_is_the_correct_answer())
-print()
-determine_if_c_is_the_corrrect_answer()
-
-print()
-print(question_6.question_if_b_is_the_correct_answer())
-print()
 def determine_if_b_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
@@ -126,6 +98,35 @@ def determine_if_b_is_the_corrrect_answer():
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
+
+print()
+print(question_1.question_if_c_is_the_correct_answer())
+print()
+determine_if_c_is_the_corrrect_answer()
+
+print()
+print(question_2.question_if_a_is_the_correct_answer())
+print()
+determine_if_a_is_the_corrrect_answer()
+
+print()
+print(question_3.question_if_a_is_the_correct_answer())
+print()
+determine_if_a_is_the_corrrect_answer()
+
+print()
+print(question_4.question_if_c_is_the_correct_answer())
+print()
+determine_if_c_is_the_corrrect_answer()
+
+print()
+print(question_5.question_if_c_is_the_correct_answer())
+print()
+determine_if_c_is_the_corrrect_answer()
+
+print()
+print(question_6.question_if_b_is_the_correct_answer())
+print()
 determine_if_b_is_the_corrrect_answer()
 
 print()
