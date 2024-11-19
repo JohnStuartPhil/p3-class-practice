@@ -1,6 +1,7 @@
 class Countries:
     """Lists the countries"""
-    def __init__(self, country, capital, incorrect_1, incorrect_2, a, b, c):
+    def __init__(self, number, country, capital, incorrect_1, incorrect_2, a, b, c):
+        self.number = number
         self.country = country
         self.capital = capital
         self.incorrect_1 = incorrect_1
@@ -11,26 +12,26 @@ class Countries:
     
     def question_if_a_is_the_correct_answer(self):
         """the question when option A is the correct answer"""
-        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.capital}, {self.b}: {self.incorrect_1} or {self.c}: {self.incorrect_2}"
+        return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.capital}, {self.b}: {self.incorrect_1} or {self.c}: {self.incorrect_2}"
     
     def question_if_b_is_the_correct_answer(self):
         """the question when option B is the correct answer"""
-        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.capital} or {self.c}: {self.incorrect_2}"
+        return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.capital} or {self.c}: {self.incorrect_2}"
     
     def question_if_c_is_the_correct_answer(self):
         """the question when option C is the correct answer"""
-        return f"What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
+        return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
-question_1 = Countries("the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
-question_2 = Countries("China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
-question_3 = Countries("Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
-question_4 = Countries("Japan", "Toyko", "Hiroshima", "Osaka", "A", "B", "C")
-question_5 = Countries("India", "New Deheli", "Chennai", "Mumbai", "A", "B", "C")
-question_6 = Countries("the United Kingdom", "London", "Birmingham", "Manchester", "A", "B", "C")
-question_7 = Countries("France", "Paris", "Lyon", "Nice", "A", "B", "C")
-question_8 = Countries("Italy", "Rome", "Milan", "Naples", "A", "B", "C")
-question_9 = Countries("Canada", "Ottawa", "Montreal", "Toronto", "A", "B", "C")
-question_10 = Countries("Brazil", "Brasilia", "Rio de Janerio", "Sao Paulo", "A", "B", "C")
+question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
+question_2 = Countries(2, "China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
+question_3 = Countries(3, "Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
+question_4 = Countries(4, "Japan", "Toyko", "Hiroshima", "Osaka", "A", "B", "C")
+question_5 = Countries(5, "India", "New Deheli", "Chennai", "Mumbai", "A", "B", "C")
+question_6 = Countries(6, "the United Kingdom", "London", "Birmingham", "Manchester", "A", "B", "C")
+question_7 = Countries(7, "France", "Paris", "Lyon", "Nice", "A", "B", "C")
+question_8 = Countries(8, "Italy", "Rome", "Milan", "Naples", "A", "B", "C")
+question_9 = Countries(9, "Canada", "Ottawa", "Montreal", "Toronto", "A", "B", "C")
+question_10 = Countries(10, "Brazil", "Brasilia", "Rio de Janerio", "Sao Paulo", "A", "B", "C")
 
 print()
 print(question_1.question_if_c_is_the_correct_answer())
