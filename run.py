@@ -35,6 +35,7 @@ question_10 = Countries("Brazil", "Brasilia", "Rio de Janerio", "Sao Paulo", "A"
 print()
 print(question_1.question_if_c_is_the_correct_answer())
 print()
+
 def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
@@ -58,9 +59,10 @@ def determine_if_c_is_the_corrrect_answer():
         print()
 determine_if_c_is_the_corrrect_answer()
 
-
+print()
 print(question_2.question_if_a_is_the_correct_answer())
 print()
+
 def determine_if_a_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
@@ -84,12 +86,26 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         the_question()
         print()
+determine_if_a_is_the_corrrect_answer()
+
+print()
+print(question_3.question_if_a_is_the_correct_answer())
+print()
+determine_if_a_is_the_corrrect_answer()
+
+print()
+print(question_4.question_if_c_is_the_correct_answer())
+print()
 determine_if_c_is_the_corrrect_answer()
 
-print(question_3.question_if_c_is_the_correct_answer())
 print()
+print(question_5.question_if_c_is_the_correct_answer())
+print()
+determine_if_c_is_the_corrrect_answer()
 
-
+print()
+print(question_6.question_if_b_is_the_correct_answer())
+print()
 def determine_if_b_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
@@ -114,4 +130,3 @@ def determine_if_b_is_the_corrrect_answer():
 determine_if_b_is_the_corrrect_answer()
 
 print()
-print
