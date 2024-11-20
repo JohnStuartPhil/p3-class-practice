@@ -104,7 +104,7 @@ def determine_if_c_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    iif answer.upper() == "C":
+    if answer.upper() == "C":
         print(f"You selected {answer.capitalize()}")
     elif answer.upper() == "A":
         print(f"You selected {answer.capitalize()}")
