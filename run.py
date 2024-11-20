@@ -45,6 +45,7 @@ def determine_if_a_is_the_corrrect_answer():
             break
         else:
             print(f"You selected {answer}")
+            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
     if answer.upper() == "A":
@@ -52,9 +53,6 @@ def determine_if_a_is_the_corrrect_answer():
         print()
     elif answer.upper() == "B" or answer.upper() == "C":
         print(f"{answer.capitalize()} is not the correct answer")
-        print()
-    else:
-        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
 def determine_if_b_is_the_corrrect_answer():
@@ -69,6 +67,7 @@ def determine_if_b_is_the_corrrect_answer():
             break
         else:
             print(f"You selected {answer}")
+            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
 
@@ -77,9 +76,6 @@ def determine_if_b_is_the_corrrect_answer():
         print()
     elif answer.upper() == "A" or answer.upper() == "C":
         print(f"{answer.capitalize()} is not the correct answer")
-        print()
-    else:
-        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
 def determine_if_c_is_the_corrrect_answer():
@@ -94,6 +90,7 @@ def determine_if_c_is_the_corrrect_answer():
             break
         else:
             print(f"You selected {answer}")
+            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
 
@@ -102,9 +99,6 @@ def determine_if_c_is_the_corrrect_answer():
         print()
     elif answer.upper() == "A" or answer.upper() == "B":
         print(f"{answer.capitalize()} is not the correct answer")
-        print()
-    else:
-        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
 
 print()
