@@ -22,6 +22,19 @@ class Countries:
         """the question when option C is the correct answer"""
         return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
+    def selected_answer_if_country_was_chosen(self):
+        """"""
+        return f"{self.country}"
+    
+    def selected_answer_if_incorrect_1_was_chosen(self):
+        """"""
+        return f"{self.incorrect_1}"
+
+    def selected_answer_if_incorrect_2_was_chosen(self):
+        """"""
+        return f"{self.incorrect_2}"
+    
+
 question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
 question_2 = Countries(2, "China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
 question_3 = Countries(3, "Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
