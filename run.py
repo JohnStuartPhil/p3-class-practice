@@ -22,19 +22,6 @@ class Countries:
         """the question when option C is the correct answer"""
         return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
-    def selected_answer_if_country_was_chosen(self):
-        """"""
-        return f"{self.country}"
-    
-    def selected_answer_if_incorrect_1_was_chosen(self):
-        """"""
-        return f"{self.incorrect_1}"
-
-    def selected_answer_if_incorrect_2_was_chosen(self):
-        """"""
-        return f"{self.incorrect_2}"
-    
-
 question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
 question_2 = Countries(2, "China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
 question_3 = Countries(3, "Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
@@ -50,17 +37,15 @@ def determine_if_a_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    answer = input("Please select an option of A, B or C: ")
-    print()
-    if answer.upper() == "A":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "B":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "C":
-        print(f"You selected {answer.capitalize()}")
-    else:
-        print(f"You selected {answer}")
-    print()
+    while True:
+        answer = input("Please select an option of A, B or C: ")
+        print()
+        if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print(f"You selected {answer.capitalize()}")
+            break
+        else:
+            print(f"You selected {answer}")
+        print()
 
     if answer.upper() == "A":
         print(f"Well done, {answer.capitalize()} is the correct answer")
@@ -76,17 +61,16 @@ def determine_if_b_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    answer = input("Please select an option of A, B or C: ")
-    print()
-    if answer.upper() == "B":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "A":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "C":
-        print(f"You selected {answer.capitalize()}")
-    else:
-        print(f"You selected {answer}")
-    print()
+    while True:
+        answer = input("Please select an option of A, B or C: ")
+        print()
+        if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print(f"You selected {answer.capitalize()}")
+            break
+        else:
+            print(f"You selected {answer}")
+        print()
+
 
     if answer.upper() == "B":
         print(f"Well done, {answer.capitalize()} is the correct answer")
@@ -102,17 +86,16 @@ def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    answer = input("Please select an option of A, B or C: ")
-    print()
-    if answer.upper() == "C":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "A":
-        print(f"You selected {answer.capitalize()}")
-    elif answer.upper() == "B":
-        print(f"You selected {answer.capitalize()}")
-    else:
-        print(f"You selected {answer}")
-    print()
+    while True:
+        answer = input("Please select an option of A, B or C: ")
+        print()
+        if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print(f"You selected {answer.capitalize()}")
+            break
+        else:
+            print(f"You selected {answer}")
+        print()
+
 
     if answer.upper() == "C":
         print(f"Well done, {answer.capitalize()} is the correct answer")
