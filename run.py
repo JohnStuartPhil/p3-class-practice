@@ -52,7 +52,11 @@ def determine_if_a_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+    if answer.upper() == "A":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "B":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "C":
         print(f"You selected {answer.capitalize()}")
     else:
         print(f"You selected {answer}")
@@ -74,7 +78,11 @@ def determine_if_b_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+    if answer.upper() == "B":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "A":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "C":
         print(f"You selected {answer.capitalize()}")
     else:
         print(f"You selected {answer}")
@@ -96,7 +104,11 @@ def determine_if_c_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+    iif answer.upper() == "C":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "A":
+        print(f"You selected {answer.capitalize()}")
+    elif answer.upper() == "B":
         print(f"You selected {answer.capitalize()}")
     else:
         print(f"You selected {answer}")
