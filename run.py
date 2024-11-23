@@ -189,3 +189,5 @@ print()
 print(question_10.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
+
+print("That is the end of the quiz")
