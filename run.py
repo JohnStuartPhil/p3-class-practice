@@ -56,19 +56,25 @@ def determine_if_a_is_the_corrrect_answer():
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print()
             print(f"You selected {answer.capitalize()}")
+            print()
             break
         else:
+            print()
             print(f"You selected {answer}")
+            print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
     if answer.upper() == "A":
+        print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
         score = score + 1
         print("score:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
+        print()
         print(f"{answer.capitalize()} is not the correct answer")
         print()
 
@@ -81,20 +87,25 @@ def determine_if_b_is_the_corrrect_answer():
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print()
             print(f"You selected {answer.capitalize()}")
+            print()
             break
         else:
+            print()
             print(f"You selected {answer}")
+            print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-
     if answer.upper() == "B":
+        print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
         score = score + 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
+        print()
         print(f"{answer.capitalize()} is not the correct answer")
         print()
 
@@ -107,20 +118,25 @@ def determine_if_c_is_the_corrrect_answer():
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+            print()
             print(f"You selected {answer.capitalize()}")
+            print()
             break
         else:
+            print()
             print(f"You selected {answer}")
+            print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-
     if answer.upper() == "C":
+        print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
         score = score + 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
+        print()
         print(f"{answer.capitalize()} is not the correct answer")
         print()
 
