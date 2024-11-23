@@ -53,7 +53,7 @@ def determine_if_a_is_the_corrrect_answer():
     """
     score = 0
     while True:
-        answer = input("Please select an option of A, B or C: ")
+        answer = input("Please select an option of A, B or C, then press Enter: ")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print(f"You selected {answer.capitalize()}")
@@ -78,7 +78,7 @@ def determine_if_b_is_the_corrrect_answer():
     """
     score = 0
     while True:
-        answer = input("Please select an option of A, B or C: ")
+        answer = input("Please select an option of A, B or C, then press Enter: ")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print(f"You selected {answer.capitalize()}")
@@ -104,7 +104,7 @@ def determine_if_c_is_the_corrrect_answer():
     """
     score = 0
     while True:
-        answer = input("Please select an option of A, B or C: ")
+        answer = input("Please select an option of A, B or C, then press Enter: ")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print(f"You selected {answer.capitalize()}")
