@@ -72,7 +72,7 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
-        nonlocal score
+        global score
         score += 1
         print("score:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
@@ -104,7 +104,7 @@ def determine_if_b_is_the_corrrect_answer():
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
-        nonlocal score
+        global score
         score += 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
@@ -137,7 +137,7 @@ def determine_if_c_is_the_corrrect_answer():
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
-        nonlocal score
+        global score
         score += 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
