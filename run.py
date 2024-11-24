@@ -51,13 +51,12 @@ def determine_if_a_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-   
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected {answer.capitalize()}, {capital}")
             print()
             break
         else:
@@ -67,7 +66,6 @@ def determine_if_a_is_the_corrrect_answer():
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-    
     if answer.upper() == "A":
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
@@ -84,13 +82,12 @@ def determine_if_b_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected {answer.capitalize()}, {capital}")
             print()
             break
         else:
@@ -116,13 +113,12 @@ def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected {answer.capitalize()}, {capital}")
             print()
             break
         else:
@@ -132,7 +128,6 @@ def determine_if_c_is_the_corrrect_answer():
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-    
     if answer.upper() == "C":
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
