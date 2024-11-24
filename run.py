@@ -122,7 +122,7 @@ def determine_if_c_is_the_corrrect_answer():
         else:
             print(f"You selected: {answer}")
             print()
-            print(f"Sorry, {answer} is not an option, please try again and choose an option of A, B or C")
+            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
     if answer.upper() == "C":
@@ -132,10 +132,11 @@ def determine_if_c_is_the_corrrect_answer():
         score += 1
         print("Your score is now:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
-        print(f"{answer.capitalize()} is not the correct option")
+        print(f"Sorry, {answer.capitalize()} is not the correct option")
         print()
         print("Your score remains at:", score)
 
+print()
 print()
 print(question_1.question_if_c_is_the_correct_answer())
 print()
