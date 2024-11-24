@@ -34,6 +34,22 @@ class Countries:
         """the question when option C is the correct answer"""
         return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
+    def the_country(self):
+        """"""
+        return f"{self.country}"
+
+    def the_capital(self):
+        """"""
+        return f"{self.capital}"
+    
+    def the_incorrect_1(self):
+        """"""
+        return f"{self.incorrect_1}"
+    
+    def the_incorrect_2(self):
+        """"""
+        return f"{self.incorrect_2}"
+
 question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
 question_2 = Countries(2, "China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
 question_3 = Countries(3, "Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
@@ -144,51 +160,81 @@ print()
 print(question_1.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
+print()
+print(question_1.the_capital(), "is the capital of", question_1.the_country())
+print()
 
 print()
 print(question_2.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
+print()
+print(question_2.the_capital(), "is the capital of", question_2.the_country())
+print()
 
 print()
 print(question_3.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
+print()
+print(question_3.the_capital(), "is the capital of", question_3.the_country())
+print()
 
 print()
 print(question_4.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
+print()
+print(question_4.the_capital(), "is the capital of", question_4.the_country())
+print()
 
 print()
 print(question_5.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
+print()
+print(question_5.the_capital(), "is the capital of", question_5.the_country())
+print()
 
 print()
 print(question_6.question_if_b_is_the_correct_answer())
 print()
 determine_if_b_is_the_corrrect_answer()
+print()
+print(question_6.the_capital(), "is the capital of", question_6.the_country())
+print()
 
 print()
 print(question_7.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
+print()
+print(question_7.the_capital(), "is the capital of", question_7.the_country())
+print()
 
 print()
 print(question_8.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
+print()
+print(question_8.the_capital(), "is the capital of", question_8.the_country())
+print()
 
 print()
 print(question_9.question_if_b_is_the_correct_answer())
 print()
 determine_if_b_is_the_corrrect_answer()
+print()
+print(question_9.the_capital(), "is the capital of", question_9.the_country())
+print()
 
 print()
 print(question_10.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
+print()
+print(question_10.the_capital(), "is the capital of", question_10.the_country())
+print()
 
 print()
 print("You scored:", score, "out of 10")
