@@ -56,7 +56,7 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}, {capital}")
+            print(f"You selected {answer.capitalize()}")
             print()
             break
         else:
@@ -87,7 +87,7 @@ def determine_if_b_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}, {capital}")
+            print(f"You selected {answer.capitalize()}")
             print()
             break
         else:
@@ -118,7 +118,7 @@ def determine_if_c_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}, {capital}")
+            print(f"You selected {answer.capitalize()}")
             print()
             break
         else:
@@ -190,4 +190,6 @@ print(question_10.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
 
-print("That is the end of the quiz")
+print()
+print("That is the end of the quiz, thank you for playing")
+print()
