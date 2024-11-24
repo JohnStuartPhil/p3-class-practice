@@ -41,14 +41,6 @@ class Countries:
     def the_capital(self):
         """"""
         return f"{self.capital}"
-    
-    def the_incorrect_1(self):
-        """"""
-        return f"{self.incorrect_1}"
-    
-    def the_incorrect_2(self):
-        """"""
-        return f"{self.incorrect_2}"
 
 question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
 question_2 = Countries(2, "China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
@@ -69,7 +61,6 @@ def determine_if_a_is_the_corrrect_answer():
     """
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
-        print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
             print(f"You selected: {answer.capitalize()}")
@@ -88,10 +79,12 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("score:", score)
+        print("Your score is:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
         print()
         print(f"{answer.capitalize()} is not the correct answer")
+        print()
+        print("Your score is:", score)
         print()
 
 def determine_if_b_is_the_corrrect_answer():
@@ -100,7 +93,6 @@ def determine_if_b_is_the_corrrect_answer():
     """
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
-        print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
             print(f"You selected: {answer.capitalize()}")
@@ -119,10 +111,12 @@ def determine_if_b_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("score:", score)
+        print("Your score is:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
         print()
         print(f"{answer.capitalize()} is not the correct answer")
+        print()
+        print("Your score is:", score)
         print()
 
 def determine_if_c_is_the_corrrect_answer():
@@ -131,7 +125,6 @@ def determine_if_c_is_the_corrrect_answer():
     """
     while True:
         answer = input("Please select an option of A, B or C, then press Enter:\n")
-        print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
             print(f"You selected: {answer.capitalize()}")
@@ -150,10 +143,12 @@ def determine_if_c_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("score:", score)
+        print("Your score is:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
         print()
         print(f"{answer.capitalize()} is not the correct answer")
+        print()
+        print("Your score is:", score)
         print()
 
 print()
