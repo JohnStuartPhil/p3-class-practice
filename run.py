@@ -1,14 +1,18 @@
-# print()
-# print("Welcome to the Capital cities Quiz, press Enter to continue")
-# input()
-# print()
-# print("You shall be asked for the capital of 10 countries")
-# print("You shall be given a choice of 3 cities in that country, listed as A, B and C")
-# print("Please select either A, B or C")
-# print("You shall be advised if that is the correct answer or not")
-# print("If you select anything other than A, B or C, you shall be asked to make a choice again until you select A, B or C")
-# print("Press Enter to continue")
-# input()
+from rich.console import Console
+
+console = Console()
+
+print()
+console.print("Welcome to the Capital cities Quiz, press Enter to continue", style="bold")
+input()
+print()
+print("You shall be asked for the capital of 10 countries")
+print("You shall be given a choice of 3 cities in that country, listed as A, B and C")
+print("Please select either A, B or C")
+print("You shall be advised if that is the correct answer or not")
+print("If you select anything other than A, B or C, you shall be asked to make a choice again until you select A, B or C")
+print("Press Enter to continue")
+input()
 
 class Countries:
     """Defines the options"""
