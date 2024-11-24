@@ -1,14 +1,14 @@
-print()
-print("Welcome to the Capital cities Quiz, press Enter to continue")
-input()
-print()
-print("You shall be asked for the capital of 10 countries")
-print("You shall be given a choice of 3 cities in that country, listed as A, B and C")
-print("Please select either A, B or C")
-print("You shall be advised if that is the correct answer or not")
-print("If you select anything other than A, B or C, you shall be asked to make a choice again until you select A, B or C")
-print("Press Enter to continue")
-input()
+# print()
+# print("Welcome to the Capital cities Quiz, press Enter to continue")
+# input()
+# print()
+# print("You shall be asked for the capital of 10 countries")
+# print("You shall be given a choice of 3 cities in that country, listed as A, B and C")
+# print("Please select either A, B or C")
+# print("You shall be advised if that is the correct answer or not")
+# print("If you select anything other than A, B or C, you shall be asked to make a choice again until you select A, B or C")
+# print("Press Enter to continue")
+# input()
 
 class Countries:
     """Defines the options"""
@@ -45,7 +45,7 @@ question_8 = Countries(8, "Italy", "Rome", "Milan", "Naples", "A", "B", "C")
 question_9 = Countries(9, "Canada", "Ottawa", "Montreal", "Toronto", "A", "B", "C")
 question_10 = Countries(10, "Brazil", "Brasilia", "Rio de Janerio", "Sao Paulo", "A", "B", "C")
 
-
+score = 0
 
 def determine_if_a_is_the_corrrect_answer():
     """
@@ -67,11 +67,12 @@ def determine_if_a_is_the_corrrect_answer():
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-    score = 0
+    
     if answer.upper() == "A":
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
+        nonlocal score
         score += 1
         print("score:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
@@ -98,11 +99,12 @@ def determine_if_b_is_the_corrrect_answer():
             print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
-    score = 0
+    
     if answer.upper() == "B":
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
+        nonlocal score
         score += 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
@@ -130,11 +132,12 @@ def determine_if_c_is_the_corrrect_answer():
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
 
-    score = 0
+    
     if answer.upper() == "C":
         print()
         print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
+        nonlocal score
         score += 1
         print("score:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
