@@ -191,5 +191,7 @@ print()
 determine_if_a_is_the_corrrect_answer()
 
 print()
+print("You scored:", score, "out of 10")
+print()
 print("That is the end of the quiz, thank you for playing")
 print()
