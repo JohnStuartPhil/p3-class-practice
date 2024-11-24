@@ -56,12 +56,12 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected: {answer.capitalize()}")
             print()
             break
         else:
             print()
-            print(f"You selected {answer}")
+            print(f"You selected: {answer}")
             print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
@@ -87,12 +87,12 @@ def determine_if_b_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected: {answer.capitalize()}")
             print()
             break
         else:
             print()
-            print(f"You selected {answer}")
+            print(f"You selected: {answer}")
             print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
@@ -118,12 +118,12 @@ def determine_if_c_is_the_corrrect_answer():
         print()
         if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
             print()
-            print(f"You selected {answer.capitalize()}")
+            print(f"You selected: {answer.capitalize()}")
             print()
             break
         else:
             print()
-            print(f"You selected {answer}")
+            print(f"You selected: {answer}")
             print()
             print(f"{answer} is not an option, please try again and choose an option of A, B or C")
             print()
