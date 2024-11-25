@@ -77,7 +77,7 @@ def determine_if_a_is_the_corrrect_answer():
         else:
             print(f"You selected: {answer}")
             print()
-            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
+            console.print(f"{answer} is not an option, please try again and choose an option of A, B or C", style="blue")
             print()
 
     if answer.upper() == "A":
@@ -104,7 +104,7 @@ def determine_if_b_is_the_corrrect_answer():
         else:
             print(f"You selected: {answer}")
             print()
-            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
+            console.print(f"{answer} is not an option, please try again and choose an option of A, B or C", style="blue")
             print()
     
     if answer.upper() == "B":
@@ -131,7 +131,7 @@ def determine_if_c_is_the_corrrect_answer():
         else:
             print(f"You selected: {answer}")
             print()
-            print(f"{answer} is not an option, please try again and choose an option of A, B or C")
+            console.print(f"{answer} is not an option, please try again and choose an option of A, B or C", style="blue")
             print()
 
     if answer.upper() == "C":
