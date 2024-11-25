@@ -81,7 +81,7 @@ def determine_if_a_is_the_corrrect_answer():
             print()
 
     if answer.upper() == "A":
-        print(f"Well done, {answer.capitalize()} is the correct option")
+        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
@@ -108,7 +108,7 @@ def determine_if_b_is_the_corrrect_answer():
             print()
     
     if answer.upper() == "B":
-        print(f"Well done, {answer.capitalize()} is the correct option")
+        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
@@ -135,7 +135,7 @@ def determine_if_c_is_the_corrrect_answer():
             print()
 
     if answer.upper() == "C":
-        print(f"Well done, {answer.capitalize()} is the correct option")
+        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
