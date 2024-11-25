@@ -85,7 +85,7 @@ def determine_if_a_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("Your score is now:", score)
+        print("Your score is currently:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
         console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
@@ -112,7 +112,7 @@ def determine_if_b_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("Your score is now:", score)
+        print("Your score is currently:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
         console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
@@ -139,7 +139,7 @@ def determine_if_c_is_the_corrrect_answer():
         print()
         global score
         score += 1
-        print("Your score is now:", score)
+        print("Your score is currently:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
         console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
