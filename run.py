@@ -44,11 +44,11 @@ class Countries:
         return f"Question {self.number}: What is the capital of {self.country}?\n\n{self.a}: {self.incorrect_1}\n{self.b}: {self.incorrect_2}\n{self.c}: {self.capital}"
 
     def the_country(self):
-        """"""
+        """returns the name of the country"""
         return f"{self.country}"
 
     def the_capital(self):
-        """"""
+        """returns the capital"""
         return f"{self.capital}"
 
 question_1 = Countries(1, "the United States", "Washington DC", "Los Angeles", "New York", "A", "B", "C")
