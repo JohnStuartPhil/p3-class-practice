@@ -81,13 +81,13 @@ def determine_if_a_is_the_corrrect_answer():
             print()
 
     if answer.upper() == "A":
-        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
+        console.print(f"[bold] Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
         print("Your score is currently:", score)
     elif answer.upper() == "B" or answer.upper() == "C":
-        console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
+        console.print(f"[bold] Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
         print("Your score remains at:", score)
 
@@ -108,13 +108,13 @@ def determine_if_b_is_the_corrrect_answer():
             print()
     
     if answer.upper() == "B":
-        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
+        console.print(f"[bold] Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
         print("Your score is currently:", score)
     elif answer.upper() == "A" or answer.upper() == "C":
-        console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
+        console.print(f"[bold] Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
         print("Your score remains at:", score)
 
@@ -135,13 +135,13 @@ def determine_if_c_is_the_corrrect_answer():
             print()
 
     if answer.upper() == "C":
-        console.print(f"Well done, {answer.capitalize()} is the correct option", style="green")
+        console.print(f"[bold] Well done, {answer.capitalize()} is the correct option", style="green")
         print()
         global score
         score += 1
         print("Your score is currently:", score)
     elif answer.upper() == "A" or answer.upper() == "B":
-        console.print(f"Sorry, {answer.capitalize()} is not the correct option", style="red")
+        console.print(f"[bold] Sorry, {answer.capitalize()} is not the correct option", style="red")
         print()
         print("Your score remains at:", score)
 
@@ -227,7 +227,7 @@ print(question_10.the_capital(), "is the capital of", question_10.the_country())
 print()
 
 print()
-print("You scored:", score, "out of 10")
+console.print("You scored:", score, "out of 10", style="bold")
 print()
 print("That is the end of the quiz, thank you for playing")
 print()
