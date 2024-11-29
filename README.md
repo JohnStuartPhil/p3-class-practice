@@ -26,9 +26,9 @@ At the end of the quiz
 
 ## Testing 
 I have manually tested this project by doing the following: 
-•	Passed the code through a PEP8 linter and confirmed there are no problems
-•	Given invalid inputs (including selecting nothing and just pressing return) 
-•	Tested in my local terminal and the Code Institute Heroku terminal 
+-	Passed the code through a PEP8 linter and confirmed there are no problems
+-	Given invalid inputs (including selecting nothing and just pressing return) 
+-	Tested in my local terminal and the Code Institute Heroku terminal 
 
 | Test  | Section  | Action  | Result  | Pass/Fail  |
 |---|---|---|---|---|
@@ -47,24 +47,24 @@ I have manually tested this project by doing the following:
 
 
 ## Bugs 
-•	bugs 
+-	bugs 
 
 ## Validator 
-•	PEP8 
-o	No errors were returned from PEP8online.com
+-	PEP8 
+    -	No errors were returned from PEP8online.com
 
 ## Deployment 
 This project was deployed using Code Institute’s mock terminal for Heroku
-•	Steps for deployment: 
-o	Fork or clone this repository 
-o	Create a new Heroku app
-o	Set the build backs to Python and Node JS in that order
-o	Link the Heroku app to the repository
-o	Click on Deploy
+-	Steps for deployment: 
+    -	Fork or clone this repository 
+	- Create a new Heroku app
+	- Set the build backs to Python and Node JS in that order
+	- Link the Heroku app to the repository
+	- Click on Deploy
 
 ## Credits 
-•	Code Institute for the deployment terminal 
+-	Code Institute for the deployment terminal 
 
 ## Thanks to
-•	Mentor: Matthew Bodden 
+-	Mentor: Matthew Bodden 
 
