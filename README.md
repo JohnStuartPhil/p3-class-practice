@@ -29,7 +29,22 @@ I have manually tested this project by doing the following:
 •	Passed the code through a PEP8 linter and confirmed there are no problems
 •	Given invalid inputs (including selecting nothing and just pressing return) 
 •	Tested in my local terminal and the Code Institute Heroku terminal 
-<table of testing> 
+
+| Test  | Section  | Action  | Result  | Pass/Fail  |
+|---|---|---|---|---|
+| 1  |  x | y   | z  | Pass  |
+| 2  |  x | y  |  z | Pass  |
+| 3  |  x | y   | z  |  Pass |
+| 4  |  x  | y   | z   | Pass  |
+| 5 | x  | y   | z   | Pass  |
+| 6 |  x  | y   | z  |  Pass |
+|  7 |  x  | y   |z   |  Pass |
+| 8  |  x  | y  | z  | Pass  |
+| 9  |  x  | y  | z  | Pass  |
+|  10 | x   | y  | z  |  Pass |
+| 11  |  x  |  y | z |  Pass |
+| 12  |  x  | y | z |  Pass |
+
 
 ## Bugs 
 •	bugs 
